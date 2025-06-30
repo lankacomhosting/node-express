@@ -71,8 +71,8 @@ app.get("/", (req, res) => {
       </style>
     </head>
     <body>
-      <h1>Welcome to Node Express!</h1>
-      <p>This is a simple colorful app running on your Express server.</p>
+      <h1>Welcome to AWS CodePipeline</h1>
+      <p>This is a simple colorful app design by Madushanka Sandaruwan.</p>
       <a href="/hello">Go to Hello Route</a>
     </body>
     </html>
