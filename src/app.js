@@ -18,10 +18,9 @@ app.use(morgan("tiny"));
 
 // healthcheck endpoint
 app.get("/", (req, res) => {
-  res.status(200).send({ status: "ok" });
+  res.status(200).send({ status: "Deployed via CodePipeline 🎉" });
 });
 
-app.use("/hello", helloRoute);
 
 // custom middleware
 app.use(middleware.unknownEndpoint);
